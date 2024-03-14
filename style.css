@@ -212,7 +212,7 @@ body {
 .guide {
   padding: 0 20px;
   font-size: 14px;
-  justify-content: space-evenly;
+  justify-content: space-between;
   display: flex;
 }
 
@@ -232,4 +232,10 @@ body {
   border-bottom: 1px solid #dadce0;
   display: block;
   padding: 15px 30px;
+}
+
+@media (max-width: 1200px) {
+  .guide {
+    justify-content: space-evenly;
+  }
 }
